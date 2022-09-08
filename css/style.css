@@ -36,3 +36,136 @@ html {
 	box-sizing: inherit;
 }
 
+body {
+	font-family: 'Lato';
+	font-style: normal;
+	font-size: 16px;
+	line-height: 1.2;
+	font-weight: normal;
+	color: #102746;
+}
+
+.wrapper {
+	max-width: 1060px;
+	margin: 0 auto;
+}
+
+
+/* Header styles start */
+
+.header {
+	background-color: transparent;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+
+}
+
+.header__wrapper { 
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-end;
+	justify-content: space-between;
+	padding-top: 56px;
+}
+
+.header__list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.header__item {
+	margin-right: 82px;
+}
+
+.header__item:last-child {
+	margin: 0;
+}
+
+.header__link {
+	font-family: inherit;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.header__link:hover, .header__link:focus, .header__link:active {
+	opacity: .75;
+}
+
+/* Header styles end */
+
+/* Intro styles start */
+
+.intro {
+	min=height: 100vh;
+	padding-bottom: 376px;
+	background: url('../img/intro_bg.jpg') no-repeat center;
+	background-size: cover;
+	padding-top: 263px;
+}
+
+.intro__title {
+	max-width: 619px;
+	margin-bottom: 22px;
+	font-weight: 500;
+	font-size: 50px;
+	line-height: 60px;
+	color: #FFFFFF;
+}
+
+.intro__subtitle {
+	max-width: 546px;
+	margin-bottom: 59px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #FFFFFF;
+}
+
+.search-form__info {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.search-form__field {
+	width: 297px;
+	background: transparent url('../img/svg/circle_icon.svg') no-repeat left 6px;
+	background-size: 20px;
+	border: 0;
+	border-bottom: 2px solid #BFC0C5;
+	margin-right: 60px;
+	padding-left: 43px;
+	padding-bottom: 22px;
+	color: #FFFFFF;
+}
+
+.search-form__field::placeholder {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 24px;
+	color: #FFFFFF;
+}
+
+.search-form__submit {
+	padding: 15px 39px;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 29px;
+	color: #FFFFFF;
+	background-color: #1B7DFF;
+	border: 0;
+}
+
+.search-form__submit:hover, .search-form__submit:focus, .search-form__submit:active {
+	background-color: #114d9c;
+}
+
+
+/* Intro styles end */
+ 
