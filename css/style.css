@@ -463,11 +463,110 @@ img {
 
 .tour__link:hover, .tour__link:focus, .tour__link:active {
 	background: url('../img/svg/arrow__icon.svg') no-repeat right center;
-
 }
 
-
 /* Tours styles end */
+
+/* Top styles start */
+
+.top {
+	margin-bottom: 144px;
+}
+
+.top__cards {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 57px;
+}
+
+.top__card {
+	display: flex;
+	flex-direction: column;
+}
+.top__title {
+	margin-bottom: 57px;
+}
+
+.top__card-pic {
+	position: relative;
+	margin-bottom: 45px;
+	
+}
+
+.top__card-stats {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: flex-end;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	z-index: 6;
+	background-color: rgba(21, 24, 36, 0.6);
+	padding: 16px 25px;
+}
+.top__card-title {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 24px;
+	color: #FFFFFF;	
+	margin: 0 auto 0 0;
+}
+.top__card-likes {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #FFFFFF;
+	padding-right: 20px;
+	background: url('../img/svg/heart__icon.svg') no-repeat right;
+	margin-right: 14px;
+}
+.top__cards-likes-value {
+}
+.top__card-comments {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #FFFFFF;
+	padding-right: 23px;
+	background: url('../img/svg/comment__icon.svg') no-repeat right;
+}
+.top__card-comments-value {
+}
+
+.top__card-desc {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 31px;
+}
+
+.top__card-more {
+	width: 118px;
+	padding: 12px 19px;
+	font-size: 16px;
+	line-height: 19px;
+	background: #006DFE;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-decoration: none;
+	margin: auto 0 0 0;
+	transition: all .15s;
+	-webkit-transition: all .15s;
+	-moz-transition: all .15s;
+	-ms-transition: all .15s;
+	-o-transition: all .15s;
+}
+
+.top__card-more:hover, .top__card-more:focus, .top__card-more:active {
+	background-color: #114d9c;
+}
+
+/* Top styles end */
+
+
 
 
  
