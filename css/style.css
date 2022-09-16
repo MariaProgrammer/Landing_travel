@@ -924,20 +924,10 @@ img {
 	        align-items: center;	
 }
 
-.tour {
-	margin-bottom: 77px;
-}
-
-.tour__pic {
-}
-
 .tour__pic--right {
 	-webkit-box-ordinal-group: 3;
 	    -ms-flex-order: 2;
 	        order: 2;
-}
-
-.tour__thumb {
 }
 
 .tour__info {
@@ -1057,8 +1047,7 @@ img {
 	background: url('../img/svg/heart__icon.svg') no-repeat right;
 	margin-right: 14px;
 }
-.top__cards-likes-value {
-}
+
 .top__card-comments {
 	font-weight: 500;
 	font-size: 16px;
@@ -1066,8 +1055,6 @@ img {
 	color: #FFFFFF;
 	padding-right: 23px;
 	background: url('../img/svg/comment__icon.svg') no-repeat right;
-}
-.top__card-comments-value {
 }
 
 .top__card-desc {
@@ -1155,14 +1142,12 @@ img {
 .footer__logo {
 	width: 50%;
 }
-.footer__logo-pic {
-}
+
 
 ul.footer__menu > li+li {
 	margin-bottom: 5px;
 }
-.footer__menu-item {
-}
+
 .footer__menu-title {
 	font-weight: 700;
 	font-size: 18px;
@@ -1512,16 +1497,7 @@ ul.footer__menu > li+li {
 	.footer__menu:not(:last-child) {
 		border-bottom: 1px solid white;
 	}
-
-	
-
-	
 	
 }
 
 /* Media end */
-
-
-
-
- 
